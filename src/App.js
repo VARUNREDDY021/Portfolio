@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import React,{useContext} from 'react';
+import Home from './Components/Home/Home';
+import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects'
+import Contact from './Components/Contact/Contact';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import { UserContext } from './Components/Context/UserContext';
+
+
+
+
+
 
 function App() {
+  const {change,SetChange}=useContext(UserContext);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="App" style={{
+      background : change ? "BLACK" : '',
+      color: change ? 'white' : ''
+    }}>
+      <Navbar/>
+      <Home/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      
     </div>
   );
 }

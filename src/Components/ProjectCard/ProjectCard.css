@@ -1,0 +1,16 @@
+.card{
+    width:10rem;
+    height:11rem;
+    display:flex;
+    flex-direction: column;
+    gap:0.8rem;
+    align-items: center;
+    text-align: center;
+    width:10rem;
+    background:rgba(255, 255, 255, 0.26);
+    border:7px solid rgba(252,166,31,0.45 );
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+ }
+
+ 

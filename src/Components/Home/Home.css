@@ -1,0 +1,84 @@
+.home-main{
+    
+display: flex;
+padding:3rem 10rem;
+height:77vh;
+margin-top: 6rem;
+}
+.home-left{
+   display:flex;
+   position:relative;
+   flex:1;
+   gap:2rem;
+   flex-direction: column;
+}
+.home-name{
+    display: flex;
+    flex-direction: column;
+}
+.home-right{
+    flex:1
+}
+.home-1stspan{
+    color:#242D49;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.home-2ndspan{
+    color: #FCA61F;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.home-3rdspan{
+    font-weight: 100;
+    font-size: 14px;
+    
+    font-weight: 700;
+    color:#788097;
+    margin-top: 10px;
+}
+.home-btn{
+    width:8rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-icons{
+    margin-top: 3rem;
+    display: flex;
+    
+    
+}
+.home-icons img{
+    transform: scale(0.5);
+}
+.home-icons img:hover{
+    cursor: pointer;
+    transform: scale(0.6);
+
+}
+
+.home-right{
+    flex:1;
+    position: relative;
+}
+.home-right *{
+    position:absolute;
+    z-index:1;
+}
+.h-right-img1{
+   transform: scale(0.69);
+   left:-15%;
+   top:-9%;
+}
+.h-right-img2{
+    top:-4.6rem;
+    transform: scale(0.67);
+    left:-3rem;
+}
+.h-right-img3{
+    transform: scale(1.4);
+    left:28%;
+}
