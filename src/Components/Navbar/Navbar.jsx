@@ -28,24 +28,24 @@ const Navbar=()=>{
                 <div className="nav-links">
 
                     <Link to='nav-main' smooth={true} duration={500}>
-                     <p>HOME</p>
+                     <p className='nav-tag'>HOME</p>
                     </Link>
 
 
                     <Link to='projects' smooth={true} duration={500}>
-                     <p>PROJECTS</p>
+                     <p className='nav-tag'>PROJECTS</p>
                     </Link>
 
                         
                     <Link to='skills-main' smooth={true} duration={500}>
-                     <p>SKILLS</p>
+                     <p className='nav-tag'>SKILLS</p>
                     </Link>
 
                 </div>
                 <div className="nav-button">
                 <Link  to='contact-form' smooth={true}>
                 
-                    <button>CONTACT</button>
+                    <button className='nav-tag'>CONTACT</button>
                 </Link>
                 </div>
       

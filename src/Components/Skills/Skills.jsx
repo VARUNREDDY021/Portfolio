@@ -1,6 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import Card from '../Card/Card';
+import resume from '../../img/Resume.pdf'
 
 const Skills=()=>{
     return(
@@ -11,7 +12,7 @@ const Skills=()=>{
                 <span  className='skills-span2'>SKILLS</span>
                 
                 <span  className='skills-span3'>view my cv by downloading here</span>
-                <button className='s-btn'>Download CV</button>
+             <button>  <a href={resume} download className='s-btn'>Download CV</a></button> 
             </div>
             <div className="skills-right"></div>
             

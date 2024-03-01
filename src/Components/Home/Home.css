@@ -70,8 +70,8 @@ margin-top: 6rem;
 }
 .h-right-img1{
    transform: scale(0.69);
-   left:-15%;
    top:-59%;
+   left:-15%;
    width:49rem;
    height:63rem;
 }
@@ -92,20 +92,23 @@ margin-top: 6rem;
 
 @media screen and (max-width:480px){
     .home-main{
+        margin-top: -1rem;
         flex-direction: column;
         justify-content: center;
     }
     .home-left{
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
     .home-icons{
         justify-content: center;
     }
-    .home-right{
-        margin-top: 4rem;
-    }
+    
     .h-right-img1{
-     margin-left:-13rem;
+     margin-left: -21rem;
+     margin-top: -10rem;
+     transform:scale(0.36)
     }
     .h-right-img2{
         margin-left:-13rem;
