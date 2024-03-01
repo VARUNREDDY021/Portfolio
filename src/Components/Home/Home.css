@@ -71,7 +71,9 @@ margin-top: 6rem;
 .h-right-img1{
    transform: scale(0.69);
    left:-15%;
-   top:-9%;
+   top:-59%;
+   width:49rem;
+   height:63rem;
 }
 .h-right-img2{
     top:-4.6rem;
@@ -81,4 +83,31 @@ margin-top: 6rem;
 .h-right-img3{
     transform: scale(1.4);
     left:28%;
+    width:350px;
+   
+
+    border-radius: 20rem;
+    
+}
+
+@media screen and (max-width:480px){
+    .home-main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-left{
+        justify-content: center;
+    }
+    .home-icons{
+        justify-content: center;
+    }
+    .home-right{
+        margin-top: 4rem;
+    }
+    .h-right-img1{
+     margin-left:-13rem;
+    }
+    .h-right-img2{
+        margin-left:-13rem;
+       }
 }

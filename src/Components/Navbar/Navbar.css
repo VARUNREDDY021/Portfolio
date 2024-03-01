@@ -55,7 +55,7 @@ button:hover{
     border: 1px solid #FCA61F;
 }
 .theme-btn{
-    width: 100px;
+    width: 70px;
     margin-left: 56px;
     display: flex;
     align-items: center;
@@ -67,4 +67,19 @@ button:hover{
     border:1px solid white;
     outline:white;
 
+}
+.mode-img{
+  height: 30px;
+
+}
+
+@media screen and (max-width:480px) {
+    .nav-right{
+        display:none;
+    }
+   
+    .nav-left{
+        align-items: center;
+        justify-content: center;
+    }
 }

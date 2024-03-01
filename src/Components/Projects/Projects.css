@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20rem;
 }
 
 .project-1stspan {
@@ -40,6 +41,13 @@
 
 
 }
+.Project-eachimg p{
+    display: flex;
+    justify-content: center;
+}
+.Project-eachimg a{
+    text-decoration: none;
+}
 .Project-eachimg{
     display: flex;
     flex-direction: column;
@@ -50,4 +58,28 @@
     margin-top: 6rem;
     width:80%;
 
+}
+
+@media screen and (max-width:480px){
+
+    .projects{
+        margin-top: 10px;
+    }
+    .Project-eachimg a{
+        text-decoration: none;
+    }
+    .projects-right{
+        grid-template-columns: 1fr;
+    }
+    .Project-eachimg{
+        border: 2px solid #242d49;
+        padding:3px 10px 10px;
+
+    }
+    .Project-eachimg p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
 }

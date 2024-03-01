@@ -5,6 +5,9 @@ import linkedin from '../../img/linkedin.png';
 import github from '../../img/github.png';
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
+import {Link } from 'react-scroll';
+import varun from '../../img/varun2.png'
+import vector3 from '../../img/Vector3.png'
 
 
 const Home=()=>{
@@ -16,17 +19,19 @@ const Home=()=>{
                   <span className='home-2ndspan'>VARUN REDDY</span>
                   <span className='home-3rdspan'>Frontend Developer</span>
                 </div>
+                <Link to='contact-form' smooth={true} duration={600}>
                 <button className='home-btn '>Hire me!</button>
+                </Link>
                 <div className="home-icons">
                     <a href='https://www.instagram.com/invites/contact/?i=wl6nfa5tki5o&utm_content=o0s605j'>
                     <img src={insta}/>
                     </a>
 
-                  <a href=''>
+                  <a href='https://github.com/VARUNREDDY021'>
                      <img src={github}/>
                   </a> 
 
-                    <a>
+                    <a href='https://www.linkedin.com/in/varun-reddy-vankeshwaram-385621237'>
                     <img src={linkedin}/>
                     </a>
 
@@ -34,10 +39,8 @@ const Home=()=>{
                 </div>
             </div>
             <div className="home-right">
-               <img src={Vector1} className='h-right-img1'/>
-               <img src={Vector2} className='h-right-img2'/>
-               <img src='' className='h-right-img3'/>
-
+               <img src={vector3} className='h-right-img1'/>
+               
             </div>
       
         </div>

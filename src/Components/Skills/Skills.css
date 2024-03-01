@@ -37,3 +37,9 @@
    align-items: center;
    justify-content: center;
 }
+@media screen and (max-width:480px){
+  .skills-main{
+   margin-top: 30rem;
+   gap:10px;
+  }
+}
