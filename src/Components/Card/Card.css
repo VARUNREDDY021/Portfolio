@@ -1,0 +1,29 @@
+.card{
+   width:10rem;
+   height:12rem;
+   display:flex;
+   flex-direction: column;
+   gap:0.8rem;
+   align-items: center;
+   text-align: center;
+   width:10rem;
+   background:rgba(255, 255, 255, 0.41);
+   border:7px solid rgba(252,166,31,0.45 );
+   border-radius: 20px;
+   padding: 0px 26px 2rem 26px;
+}
+.card-hr{
+    border: 2px solid rgba(252,166,31,0.45 );
+    width:80%;
+}
+.card-heading{
+   font-size: 24px;
+   color:#242D49;
+
+}
+
+.ck:hover{
+   transform: scale(1.2);
+   transition: 0.5s ease;
+   cursor: pointer;
+}
