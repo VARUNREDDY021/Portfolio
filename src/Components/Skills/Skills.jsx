@@ -21,9 +21,9 @@ const Skills=()=>{
                
               skill1={'CORE JAVA'}
               skill2={'JAVASCRIPT'}
-              skill3={'REACT'}
-              skill4={'HTML'}
-              skill5={'CSS'}/>
+              skill3={'SPRING BOOT'}
+              skill4={'REACT'}
+              skill5={'HTML,CSS'}/>
 
         </div>
         </div>

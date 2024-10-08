@@ -17,7 +17,7 @@ const Home=()=>{
                 <div className="home-name">
                   <span className='home-1stspan'>Hi! I AM</span>
                   <span className='home-2ndspan'>VARUN REDDY</span>
-                  <span className='home-3rdspan'>Frontend Developer</span>
+                  <span className='home-3rdspan'>Developer</span>
                 </div>
                 <Link to='contact-form' smooth={true} duration={600}>
                 <button className='home-btn '>Hire me!</button>
