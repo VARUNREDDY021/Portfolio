@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+  "dependencies": {
+    "react-scroll": "^1.9.0"
+=======
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+>>>>>>> 695001324243620517a667a9d39ddc30d55f6efc
   }
 }
