@@ -17,7 +17,7 @@ const Projects=()=>{
             <div className="projects-right">
                 
                     <div className='Project-eachimg'>
-                       <a href='https://main--lambent-valkyrie-c16033.netlify.app/'>
+                        <a href='https://main--lambent-valkyrie-c16033.netlify.app/'> 
 
                         <img src={temp}  style={{height:'200px'}}/>
                         <p>TEMPERATURE CONVERTOR</p>

@@ -27,3 +27,7 @@
    transition: 0.5s ease;
    cursor: pointer;
 }
+
+.ck card-skill1{
+   font-size: 25px;
+}

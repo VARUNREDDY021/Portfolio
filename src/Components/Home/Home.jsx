@@ -15,8 +15,8 @@ const Home=()=>{
         <div className='home-main'>
             <div className="home-left">
                 <div className="home-name">
-                  <span className='home-1stspan'>Hi! I AM</span>
-                  <span className='home-2ndspan'>VARUN REDDY</span>
+                  <span className='home-1stspan'>Hi, I am</span>
+                  <span className='home-2ndspan'>Varun Reddy</span>
                   <span className='home-3rdspan'>Developer</span>
                 </div>
                 <Link to='contact-form' smooth={true} duration={600}>

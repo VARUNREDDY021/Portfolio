@@ -19,9 +19,9 @@ const Skills=()=>{
              <Card 
                heading={'Skills'}
                
-              skill1={'CORE JAVA'}
+              skill1={'JAVA'}
               skill2={'JAVASCRIPT'}
-              skill3={'SPRING BOOT'}
+              skill3={'SPRINGBOOT'}
               skill4={'REACT'}
               skill5={'HTML,CSS'}/>
 
